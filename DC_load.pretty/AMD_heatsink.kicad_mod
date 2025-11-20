@@ -1,0 +1,212 @@
+(footprint "AMD_heatsink"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9bcc5ea4-7843-4336-a90e-d608f870133a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AMD_heatsink"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9775ea85-653f-4d7c-a9d8-99e67e65deb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "333ecfaa-031e-4f9c-b050-a9e0ab368d42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e64553ff-1807-4433-be3f-17f0fecffa29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -35 -35)
+		(end 35 35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "9cda5191-50ca-408a-b576-d7bff2ab3858")
+	)
+	(fp_poly
+		(pts
+			(xy -34 20) (xy -34 -20) (xy -30 -20) (xy -16 -6) (xy -16 6) (xy -30 20)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b839d476-2c15-49e5-a13e-cb26f4fc6a2f")
+	)
+	(fp_poly
+		(pts
+			(xy -20 -34) (xy 20 -34) (xy 20 -30) (xy 6 -16) (xy -6 -16) (xy -20 -30)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "dab0e5f8-efdd-416a-b9d1-63b5dd4ee2ec")
+	)
+	(fp_poly
+		(pts
+			(xy 20 34) (xy -20 34) (xy -20 30) (xy -6 16) (xy 6 16) (xy 20 30)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "7bfb314a-7c98-468f-9a64-29885d8d133b")
+	)
+	(fp_poly
+		(pts
+			(xy 34 -20) (xy 34 20) (xy 30 20) (xy 16 6) (xy 16 -6) (xy 30 -20)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "168e6612-bf2b-4b44-a8f7-f1297339b529")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2005d7c8-c5ba-4e07-97c3-89a3c5c3e44c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -30 -30)
+		(size 4 4)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "8b3d334c-5d6f-4000-95af-f7d4e00b61df")
+	)
+	(pad "" np_thru_hole circle
+		(at -30 30)
+		(size 4 4)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1be8a57b-2c62-4f5d-ada7-b9ea6cf65122")
+	)
+	(pad "" np_thru_hole circle
+		(at 30 -30)
+		(size 4 4)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "15571c27-68a4-4458-8a37-310fb5a408c1")
+	)
+	(pad "" np_thru_hole circle
+		(at 30 30)
+		(size 4 4)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "6f9413dc-c589-4fab-b582-00dc6a6518b8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/DC_load.pretty/FHSA7015S-1267.stp"
+		(offset
+			(xyz 0 0 -6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
