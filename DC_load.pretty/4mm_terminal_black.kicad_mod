@@ -88,23 +88,13 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 14 14)
 		(drill 7)
-		(layers "F&B.Cu" "*.Mask")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "a4aced10-5552-4abd-8a36-4dee5f0f3dee")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1805dee2-288d-404a-ac5d-037035d43a71")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/DC_load.pretty/Banana jack 4mm thread.stp"
