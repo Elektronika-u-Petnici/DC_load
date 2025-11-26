@@ -1,0 +1,81 @@
+(footprint "front_plate"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf")
+	(tags "LCD 16x2 Alphanumeric 16pin")
+	(property "Reference" "DS1"
+		(at -0.3209 -34.8107 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "232cec39-d2c1-4eff-b64d-964f316abbb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "front_plate"
+		(at 1.1891 3.6593 0)
+		(layer "F.Fab")
+		(uuid "b0f1d49b-883d-4e13-8805-f1fb266c6e61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "470b8484-59a1-40c5-8661-0d589b1734c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a8887d2-c184-49b9-a0b6-2472b583c104")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3d0da575-c72c-4bee-a84d-0455ce4d66f1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/DC_load.pretty/DC_load_front_plate.step"
+		(offset
+			(xyz -55 190 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

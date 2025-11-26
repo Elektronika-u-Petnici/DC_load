@@ -1,0 +1,213 @@
+(footprint "WC1602A - below"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf")
+	(tags "LCD 16x2 Alphanumeric 16pin")
+	(property "Reference" "DS1"
+		(at -5.82 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "232cec39-d2c1-4eff-b64d-964f316abbb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WC1602A - below"
+		(at -4.31 34.66 0)
+		(layer "F.Fab")
+		(uuid "b0f1d49b-883d-4e13-8805-f1fb266c6e61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "470b8484-59a1-40c5-8661-0d589b1734c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a8887d2-c184-49b9-a0b6-2472b583c104")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.1 3.4)
+		(end 67.9 28.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "cad721e3-99a0-4016-a7c9-61a2a4c1ff13")
+	)
+	(fp_line
+		(start -8.25 -2.75)
+		(end -8.25 33.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3abf566-27ca-4cf0-b1eb-ee578f82a82d")
+	)
+	(fp_line
+		(start -8.25 -2.75)
+		(end 72.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9844510-10e6-440b-b429-2e7476945a65")
+	)
+	(fp_line
+		(start -8.25 33.75)
+		(end 72.25 33.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "000f77dd-80e2-4588-acfe-b049c987f1fd")
+	)
+	(fp_line
+		(start 72.25 -2.75)
+		(end 72.25 33.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "faedd92a-70ab-4bad-ae6d-0f0b0b4bc66a")
+	)
+	(fp_line
+		(start -8 33.5)
+		(end -8 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd07d0a3-1ff0-4d33-a9e5-f99045d1a007")
+	)
+	(fp_line
+		(start -1 -2.5)
+		(end -8 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "441da425-d6ad-4220-ab46-484b5483929b")
+	)
+	(fp_line
+		(start -1 -2.5)
+		(end 72 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ea33e93-5b3c-4552-8d5f-29998a57b077")
+	)
+	(fp_line
+		(start 72 -2.5)
+		(end 72 33.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f0266a5-e858-45b7-b52d-2dc12b545535")
+	)
+	(fp_line
+		(start 72 33.5)
+		(end -8 33.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f070aa71-1bfc-491f-83bf-a44797fc828a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 30.37 14.74 0)
+		(layer "F.Fab")
+		(uuid "3d0dbc26-884d-4ddd-87ab-c4f1d9f59c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -5.4991 0)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e12a6646-af4c-49e3-a7c4-e84c8be995d3")
+	)
+	(pad "" thru_hole circle
+		(at -5.4991 31.0007)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e76e7ec-4799-4a69-94af-9bf30c024d01")
+	)
+	(pad "" thru_hole circle
+		(at 69.49948 31.0007)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69583f9f-5370-4d63-be55-2631544c4e85")
+	)
+	(pad "" thru_hole circle
+		(at 69.5 0)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bd659da-d8f6-4218-824e-71fa33ed2a03")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/rail_lib.pretty/LCD 16X2.STEP"
+		(offset
+			(xyz 49.5 30.5 -6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

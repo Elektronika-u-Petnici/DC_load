@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "DC_load")(type "KiCad")(uri "${KIPRJMOD}/DC_load.kicad_sym")(options "")(descr ""))
-)

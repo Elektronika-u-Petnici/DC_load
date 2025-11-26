@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "PID_lib")(type "KiCad")(uri "${KIPRJMOD}/PID_lib.pretty")(options "")(descr ""))
-  (lib (name "rail_lib")(type "KiCad")(uri "${KIPRJMOD}/rail_lib.pretty")(options "")(descr ""))
-  (lib (name "DC_load")(type "KiCad")(uri "${KIPRJMOD}/DC_load.pretty")(options "")(descr ""))
-)
