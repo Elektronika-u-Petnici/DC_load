@@ -55,15 +55,15 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -35 -35)
-		(end 35 35)
+		(start -39 -35)
+		(end 39 35)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "B.SilkS")
-		(uuid "9cda5191-50ca-408a-b576-d7bff2ab3858")
+		(uuid "5cf1cc3e-96bc-4eab-a4bf-ecc33a74a9b7")
 	)
 	(fp_line
 		(start -34 18)
@@ -568,6 +568,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "1376ed3c-a70d-4189-a867-2ef2efadab32")
+	)
+	(fp_rect
+		(start -39 -35)
+		(end 38.998897 35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "9cda5191-50ca-408a-b576-d7bff2ab3858")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)

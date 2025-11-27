@@ -2184,6 +2184,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 149.86) (xy 240.03 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18846d35-40bb-46b5-9fd0-9b3327468ce2")
+	)
+	(wire
+		(pts
 			(xy 147.32 81.28) (xy 158.75 81.28)
 		)
 		(stroke
@@ -2874,6 +2884,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 152.4) (xy 224.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ff8fc1-1044-4f68-bc4a-a0162aa75684")
+	)
+	(wire
+		(pts
 			(xy 125.73 177.8) (xy 125.73 182.88)
 		)
 		(stroke
@@ -3014,6 +3034,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 152.4) (xy 222.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b778a74-97a7-4d5d-97e6-dd3b3c0966c5")
+	)
+	(wire
+		(pts
 			(xy 48.26 86.36) (xy 36.83 86.36)
 		)
 		(stroke
@@ -3124,6 +3154,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 157.48) (xy 242.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae4b428-348d-49cb-850e-708adf690efd")
+	)
+	(wire
+		(pts
 			(xy 36.83 86.36) (xy 36.83 81.28)
 		)
 		(stroke
@@ -3211,6 +3251,16 @@
 			(type default)
 		)
 		(uuid "b7f188a7-e772-497c-8025-92c037bd8e2a")
+	)
+	(wire
+		(pts
+			(xy 242.57 157.48) (xy 242.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8238414-bcfe-4732-812e-aaa507cb4f57")
 	)
 	(wire
 		(pts
@@ -4179,7 +4229,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22935"
 			(at 226.06 43.18 0)
 			(effects
 				(font
@@ -5750,7 +5800,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22935"
 			(at 226.06 38.1 0)
 			(effects
 				(font
@@ -6443,8 +6493,8 @@
 				)
 			)
 		)
-		(property "Value" "50k"
-			(at 234.442 53.086 0)
+		(property "Value" "49.9k"
+			(at 232.664 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6527,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23184"
 			(at 237.49 52.07 0)
 			(effects
 				(font
@@ -8429,15 +8479,15 @@
 		(dnp no)
 		(uuid "887d1488-2c1a-423f-9e17-fc7f7778eb74")
 		(property "Reference" "R33"
-			(at 242.062 29.21 90)
+			(at 241.046 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "50k"
-			(at 251.46 29.21 90)
+		(property "Value" "49.9k"
+			(at 252.476 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8470,7 +8520,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23184"
 			(at 246.38 30.48 0)
 			(effects
 				(font
@@ -10472,6 +10522,73 @@
 			(project "DC_load"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/6d7f5b85-3e99-49f9-8c4c-aaf8053997e0"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbf65c7b-86e9-42e8-bea3-dead206e5a5d")
+		(property "Reference" "#PWR0108"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f467c4-256f-4a83-a229-d46a0ff016f8")
+		)
+		(instances
+			(project "DC_load"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/6d7f5b85-3e99-49f9-8c4c-aaf8053997e0"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
