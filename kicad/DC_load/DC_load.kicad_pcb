@@ -103,6 +103,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -236,6 +237,14 @@
 	(net 117 "unconnected-(U8-PA14-Pad37)")
 	(net 118 "unconnected-(U8-PB14-Pad27)")
 	(net 119 "unconnected-(U8-PB15-Pad28)")
+	(net 120 "unconnected-(U16-NC-Pad7)")
+	(net 121 "unconnected-(U16-DI-Pad3)")
+	(net 122 "unconnected-(U16-VCC-Pad8)")
+	(net 123 "unconnected-(U16-GND-Pad5)")
+	(net 124 "unconnected-(U16-DO-Pad4)")
+	(net 125 "unconnected-(U16-SCLK-Pad2)")
+	(net 126 "unconnected-(U16-CS-Pad1)")
+	(net 127 "unconnected-(U16-NC-Pad6)")
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "01f54a76-303f-428e-b07f-f73612017c8e")
@@ -264,7 +273,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -822,7 +831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1034,7 +1043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1507,7 +1516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1719,7 +1728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1931,7 +1940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2143,7 +2152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2355,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2882,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3094,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3522,7 +3531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3734,7 +3743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4292,7 +4301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4504,7 +4513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4703,7 +4712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4915,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5127,7 +5136,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5339,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5932,7 +5941,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6453,7 +6462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6665,7 +6674,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6877,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7089,7 +7098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7301,7 +7310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7513,7 +7522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -7725,7 +7734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7853,7 +7862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8065,7 +8074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8277,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8450,6 +8459,309 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(layer "F.Cu")
+		(uuid "3ecbc4fe-0420-4e2c-b41d-b2c40b6381be")
+		(at 93.3 178.4 180)
+		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOIC SO")
+		(property "Reference" "U16"
+			(at 0 -3.4 0)
+			(layer "F.SilkS")
+			(uuid "7567219a-6987-4fba-93f7-cd2ef196c740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "93LCxxB"
+			(at 0 3.4 0)
+			(layer "F.Fab")
+			(uuid "20338cfd-259f-490a-a97c-955182ad156f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b98cc12f-f7ed-4707-aecf-9fe06ef01b91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0813e11d-6c6e-4123-8fad-286cfd503ddf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x4.9mm*")
+		(path "/57db3589-054f-4b81-a218-89ac743ece5d/ca4ce87d-4e9f-4f0b-aced-118cb158bcbc")
+		(sheetname "/Microcontroller/")
+		(sheetfile "MCU.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 2.56)
+			(end 1.95 2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "959da58f-eccd-4c74-a4ea-d8ebdd3addaf")
+		)
+		(fp_line
+			(start 0 2.56)
+			(end -1.95 2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "351dd266-5087-47e9-b1e3-657c2bbc0544")
+		)
+		(fp_line
+			(start 0 -2.56)
+			(end 1.95 -2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "55ebecf2-a05a-4c3a-a8dd-7b597c46bf6c")
+		)
+		(fp_line
+			(start 0 -2.56)
+			(end -1.95 -2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c63db039-8b84-4dd9-916b-7cee165d16cc")
+		)
+		(fp_poly
+			(pts
+				(xy -2.7 -2.465) (xy -2.94 -2.795) (xy -2.46 -2.795) (xy -2.7 -2.465)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "8872fbe0-6216-413f-9d9a-80aa419128c8")
+		)
+		(fp_line
+			(start 3.7 2.7)
+			(end 3.7 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f7342342-7720-4314-9e60-d795ff05a5ac")
+		)
+		(fp_line
+			(start 3.7 -2.7)
+			(end -3.7 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce0180f4-b56d-41cb-9177-d8dc60358df9")
+		)
+		(fp_line
+			(start -3.7 2.7)
+			(end 3.7 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3277af1d-0b6c-4fd4-9640-eda8c3d47b8e")
+		)
+		(fp_line
+			(start -3.7 -2.7)
+			(end -3.7 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e52bd9e6-c40e-43db-a9a8-3db682ad63a3")
+		)
+		(fp_line
+			(start 1.95 2.45)
+			(end -1.95 2.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d08f56ea-c4c3-49d4-8d44-3443f1585243")
+		)
+		(fp_line
+			(start 1.95 -2.45)
+			(end 1.95 2.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1c114836-315c-4a2f-b94a-1d04b070d9f6")
+		)
+		(fp_line
+			(start -0.975 -2.45)
+			(end 1.95 -2.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba7a78da-b7cd-4ca0-b359-d9a8ddb1ef60")
+		)
+		(fp_line
+			(start -1.95 2.45)
+			(end -1.95 -1.475)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f16be13-455c-4848-a66d-1649683c0b8a")
+		)
+		(fp_line
+			(start -1.95 -1.475)
+			(end -0.975 -2.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ebd2f0c1-2fbd-4dc1-b960-15c73833e7fc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fc556ab2-a1c7-4520-89a8-f0c2ed1c72f8")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.475 -1.905 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 126 "unconnected-(U16-CS-Pad1)")
+			(pinfunction "CS")
+			(pintype "input")
+			(uuid "968942e1-3bb5-4871-93b0-10afa5d7bbd1")
+		)
+		(pad "2" smd roundrect
+			(at -2.475 -0.635 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 125 "unconnected-(U16-SCLK-Pad2)")
+			(pinfunction "SCLK")
+			(pintype "input")
+			(uuid "95083f73-c19c-488e-ad7d-7db2705ba21f")
+		)
+		(pad "3" smd roundrect
+			(at -2.475 0.635 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 121 "unconnected-(U16-DI-Pad3)")
+			(pinfunction "DI")
+			(pintype "input")
+			(uuid "5a7a6921-33a3-4659-82a9-4af9232375b4")
+		)
+		(pad "4" smd roundrect
+			(at -2.475 1.905 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 124 "unconnected-(U16-DO-Pad4)")
+			(pinfunction "DO")
+			(pintype "tri_state")
+			(uuid "94568570-eaee-492e-9108-8711bcf041fe")
+		)
+		(pad "5" smd roundrect
+			(at 2.475 1.905 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 123 "unconnected-(U16-GND-Pad5)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "8a5fb348-25a8-4b2b-94d3-435d3bab4339")
+		)
+		(pad "6" smd roundrect
+			(at 2.475 0.635 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 127 "unconnected-(U16-NC-Pad6)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "ad5752fd-10ec-44d7-9b5a-0063110bfb0e")
+		)
+		(pad "7" smd roundrect
+			(at 2.475 -0.635 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 120 "unconnected-(U16-NC-Pad7)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "34a828cd-3e6c-4a86-8049-950ebac6238a")
+		)
+		(pad "8" smd roundrect
+			(at 2.475 -1.905 180)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 122 "unconnected-(U16-VCC-Pad8)")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "862685f6-368b-4561-8a10-a7f5bae8fa79")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8798,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9325,7 +9637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9537,7 +9849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9787,7 +10099,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/57db3589-054f-4b81-a218-89ac743ece5d/a4ef2b9d-b33f-482a-a013-5ed911dd404a")
+		(path "/57db3589-054f-4b81-a218-89ac743ece5d/55363413-5733-4a33-b762-795b037bfe74")
 		(sheetname "/Microcontroller/")
 		(sheetfile "MCU.kicad_sch")
 		(attr smd)
@@ -10193,7 +10505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10405,7 +10717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10878,7 +11190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11090,7 +11402,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11302,7 +11614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11514,7 +11826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11726,7 +12038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11854,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12066,7 +12378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -12278,7 +12590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12768,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12896,7 +13208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13108,7 +13420,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13320,7 +13632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13532,7 +13844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13744,7 +14056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13956,7 +14268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14168,7 +14480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14380,7 +14692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14592,7 +14904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14804,7 +15116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15099,7 +15411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15311,7 +15623,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15523,7 +15835,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15939,7 +16251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16355,7 +16667,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16567,7 +16879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16779,7 +17091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16991,7 +17303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -17203,7 +17515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17415,7 +17727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17627,7 +17939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17839,7 +18151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18360,7 +18672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18572,7 +18884,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18784,7 +19096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18996,7 +19308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19208,7 +19520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19420,7 +19732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19632,7 +19944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19844,7 +20156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20056,7 +20368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -20269,7 +20581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20951,7 +21263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21163,7 +21475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21375,7 +21687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21587,7 +21899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21799,7 +22111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22011,7 +22323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22223,7 +22535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22435,7 +22747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22944,7 +23256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23726,7 +24038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23938,7 +24250,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24150,7 +24462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24362,7 +24674,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -24574,7 +24886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24786,7 +25098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24998,7 +25310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25210,7 +25522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25422,7 +25734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25634,7 +25946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -25846,7 +26158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26103,7 +26415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26315,7 +26627,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26527,7 +26839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -26739,7 +27051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26951,7 +27263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27163,7 +27475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27375,7 +27687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27587,7 +27899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27799,7 +28111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28011,7 +28323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28223,7 +28535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28480,7 +28792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29073,7 +29385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29285,7 +29597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29497,7 +29809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29709,7 +30021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30184,7 +30496,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -30389,7 +30701,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -32010,7 +32322,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -33122,7 +33434,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -34234,7 +34546,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -34439,7 +34751,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34852,7 +35164,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -35056,7 +35368,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35197,7 +35509,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35338,7 +35650,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -36450,7 +36762,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -36741,7 +37053,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36882,7 +37194,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37156,7 +37468,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38673,7 +38985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -38953,7 +39265,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -39157,7 +39469,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39444,7 +39756,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -44791,14 +45103,6 @@
 		(uuid "f9e2499c-28ee-4404-9d45-82004e4df47d")
 	)
 	(segment
-		(start 69.5 174.6)
-		(end 92.9 174.6)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 109)
-		(uuid "2af81841-745c-49f2-b55c-34d634f62339")
-	)
-	(segment
 		(start 102.775 96.124999)
 		(end 102.850001 96.2)
 		(width 0.2)
@@ -44813,6 +45117,14 @@
 		(layer "F.Cu")
 		(net 109)
 		(uuid "42e4bc26-7589-45ae-be22-79897c6dfdf3")
+	)
+	(segment
+		(start 95.9 174.6)
+		(end 98 176.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 109)
+		(uuid "66203e7c-5b97-4b6d-b896-8f75d4db557c")
 	)
 	(segment
 		(start 101.2 96.2)
@@ -44831,6 +45143,22 @@
 		(uuid "77391715-9b46-4164-8d1a-6e95d5ca832f")
 	)
 	(segment
+		(start 69.5 174.6)
+		(end 95.9 174.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 109)
+		(uuid "877d8b10-8e9b-4330-bbf0-5ed6fce99a46")
+	)
+	(segment
+		(start 98 176.7)
+		(end 98 179.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 109)
+		(uuid "a5403609-a429-4712-90d5-af1eea8a4d32")
+	)
+	(segment
 		(start 65.7 173.2)
 		(end 69.5 173.2)
 		(width 0.2)
@@ -44839,20 +45167,20 @@
 		(uuid "b5606d03-0401-4998-976c-3aa5a16dd28a")
 	)
 	(segment
-		(start 92.9 174.6)
-		(end 101.6 183.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 109)
-		(uuid "cb3f8904-c265-4318-b7c1-4a7e191cb1f6")
-	)
-	(segment
 		(start 102.850001 96.2)
 		(end 101.2 96.2)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 109)
 		(uuid "cbbf3a15-40dc-4f5d-b9ff-e3324cd5a9dd")
+	)
+	(segment
+		(start 98 179.7)
+		(end 101.6 183.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 109)
+		(uuid "df318760-5ed2-4436-8992-8bb90237a372")
 	)
 	(segment
 		(start 61.801 153.1339)
@@ -45234,12 +45562,44 @@
 		(uuid "0cf71ec9-d10d-41bc-b530-172b154e2ef3")
 	)
 	(segment
+		(start 95.724265 173.224265)
+		(end 77.424265 173.224265)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "0e37c2db-13e4-4152-9a2f-73ed9f440b76")
+	)
+	(segment
+		(start 98.7 179.7)
+		(end 98.7 176.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "1c19c002-82a6-42d6-8a70-f10188113223")
+	)
+	(segment
 		(start 65.475735 172.375735)
 		(end 64 170.9)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 112)
 		(uuid "342dae36-de1c-448b-b7ad-24d372ea8224")
+	)
+	(segment
+		(start 98.7 176.2)
+		(end 95.724265 173.224265)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "3637db9c-b1b3-421f-bbee-edcb8da28af6")
+	)
+	(segment
+		(start 102.201 183.051057)
+		(end 101.848943 182.699)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "4692202e-287b-47c9-a8f3-2e258410d96c")
 	)
 	(segment
 		(start 64 152.8)
@@ -45250,12 +45610,36 @@
 		(uuid "54e75254-c295-4f42-abea-ab37342e21aa")
 	)
 	(segment
+		(start 101.699 182.699)
+		(end 98.7 179.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "566d0055-6f33-45e3-9725-804be8ba291f")
+	)
+	(segment
+		(start 102.3 183.3)
+		(end 102.201 183.201)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "5e2f64ac-ddfd-4786-8ca8-1a77ea1d0c39")
+	)
+	(segment
 		(start 62.9 135.9)
 		(end 87.9875 110.8125)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 112)
 		(uuid "5f74a440-c19c-47a0-a139-b0a6914f5f93")
+	)
+	(segment
+		(start 102.201 183.548943)
+		(end 102.3 183.449942)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "69476ea2-68a6-42e0-865a-13d335a92a03")
 	)
 	(segment
 		(start 87.9875 110.8125)
@@ -45266,6 +45650,14 @@
 		(uuid "6a33708f-7680-4ed5-a932-669528ffca8d")
 	)
 	(segment
+		(start 101.848943 182.699)
+		(end 101.699 182.699)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "7daeabd4-da9b-4ea2-91f9-5b5d9eb8221a")
+	)
+	(segment
 		(start 76.575735 172.375735)
 		(end 65.475735 172.375735)
 		(width 0.2)
@@ -45274,20 +45666,36 @@
 		(uuid "7e91d953-d9ee-48b4-8649-5de941b03037")
 	)
 	(segment
-		(start 102.3 183.150057)
-		(end 92.374208 173.224265)
+		(start 102.3 183.7)
+		(end 102.174971 183.574971)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 112)
-		(uuid "86fb0c0a-4b1d-4c87-a5df-9b6a89219fad")
+		(uuid "8c12cc0e-124c-454b-9f92-bebb05f3ecbd")
 	)
 	(segment
 		(start 102.3 183.449942)
-		(end 102.3 183.150057)
+		(end 102.3 183.3)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 112)
-		(uuid "c98c8b7d-b535-4eb2-935f-bedafe689918")
+		(uuid "932f91e0-3976-4867-bf54-59413743dd99")
+	)
+	(segment
+		(start 102.174971 183.574971)
+		(end 102.201 183.548943)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "a75fd09d-8e11-4bcc-9a67-9e2701c41919")
+	)
+	(segment
+		(start 102.201 183.201)
+		(end 102.201 183.051057)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 112)
+		(uuid "c8be3777-faac-4303-b892-3f96e7fac1c1")
 	)
 	(segment
 		(start 62.9 151.7)
@@ -45296,30 +45704,6 @@
 		(layer "F.Cu")
 		(net 112)
 		(uuid "c993f329-dfdf-426f-a92a-0ba3498328a7")
-	)
-	(segment
-		(start 102.174971 183.574971)
-		(end 102.3 183.449942)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 112)
-		(uuid "dd9d4543-bb96-4643-a6cf-6f9bbc37c4cf")
-	)
-	(segment
-		(start 102.3 183.7)
-		(end 102.174971 183.574971)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 112)
-		(uuid "ecf2e5ad-9d76-44f9-b1ac-e2f9cd0ae545")
-	)
-	(segment
-		(start 92.374208 173.224265)
-		(end 77.424265 173.224265)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 112)
-		(uuid "ee539886-e03f-40c2-a98d-f60df04d2e40")
 	)
 	(via
 		(at 76.575735 172.375735)
@@ -45653,8 +46037,8 @@
 		)
 		(polygon
 			(pts
-				(xy 50 50) (xy 50 136) (xy 50 136) (xy 95 136) (xy 95 123.1) (xy 82.5 110.6) (xy 82.5 90.6) (xy 95 78.1)
-				(xy 115 78.1) (xy 127.5 90.6) (xy 127.5 110.6) (xy 115 123.1) (xy 115 135.5) (xy 160 135.5) (xy 160 50)
+				(xy 50 50) (xy 50 136) (xy 95 136) (xy 95 123.1) (xy 82.5 110.6) (xy 82.5 90.6) (xy 95 78.1) (xy 115 78.1)
+				(xy 127.5 90.6) (xy 127.5 110.6) (xy 115 123.1) (xy 115 135.5) (xy 160 135.5) (xy 160 50)
 			)
 		)
 		(filled_polygon
@@ -46375,47 +46759,6 @@
 				(xy 121.227287 118.367924) (xy 121.149054 118.383484) (xy 121.099473 118.416613) (xy 119.724511 119.791575)
 				(xy 119.691382 119.841156) (xy 119.675822 119.919389) (xy 118.4015 119.919389) (xy 118.4015 119.749862)
 				(xy 118.421185 119.682823) (xy 118.437819 119.662181) (xy 124.678783 113.421217) (xy 124.740106 113.387732)
-			)
-		)
-	)
-	(zone
-		(net 70)
-		(net_name "/Power_stage/V_SENSE-")
-		(layer "F.Cu")
-		(uuid "18c538d9-61cb-4002-9b08-953a0f7bf93f")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 75.716967 52.424454) (xy 75.575546 52.283033) (xy 74.18157 52.404216) (xy 69.999293 58.000707)
-				(xy 75.595784 53.81843)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 75.578654 52.286202) (xy 75.579401 52.286888) (xy 75.713111 52.420598) (xy 75.716538 52.428871)
-				(xy 75.716494 52.429884) (xy 75.596237 53.813208) (xy 75.592107 53.821154) (xy 75.591585 53.821567)
-				(xy 70.064097 57.952278) (xy 70.055418 57.954486) (xy 70.047721 57.94991) (xy 70.045513 57.941231)
-				(xy 70.047719 57.935905) (xy 74.178433 52.408413) (xy 74.186129 52.403838) (xy 74.186786 52.403762)
-				(xy 75.570115 52.283505)
 			)
 		)
 	)
@@ -47900,9 +48243,9 @@
 		(net 69)
 		(net_name "/Power_stage/V_SENSE+")
 		(layer "F.Cu")
-		(uuid "4515cba5-9b44-41f9-b847-520758b9c76b")
+		(uuid "a4644b40-7e32-4a71-8bd2-e8ff4c7db346")
 		(name "$teardrop_padvia$")
-		(hatch none 0.1)
+		(hatch full 0.1)
 		(priority 30001)
 		(attr
 			(teardrop
@@ -47928,11 +48271,7 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 146.917124 57.002958) (xy 146.917644 57.003369) (xy 147.980838 57.896494) (xy 147.984968 57.904439)
-				(xy 147.985012 57.905452) (xy 147.985012 58.094547) (xy 147.981585 58.10282) (xy 147.980838 58.103506)
-				(xy 146.917646 58.996628) (xy 146.909107 58.999325) (xy 146.908445 58.999249) (xy 140.079071 58.01158)
-				(xy 140.071374 58.007004) (xy 140.069166 57.998325) (xy 140.073742 57.990628) (xy 140.079071 57.98842)
-				(xy 146.908445 57.00075)
+				(xy 147.985012 58.1) (xy 147.985012 57.9) (xy 146.913633 57) (xy 139.999 58) (xy 146.913633 59)
 			)
 		)
 	)
@@ -50216,6 +50555,44 @@
 			(pts
 				(xy -35.5 87.1) (xy -48 99.6) (xy -48 119.6) (xy -35.5 132.1) (xy -15.5 132.1) (xy -3 119.6) (xy -3 99.6)
 				(xy -15.5 87.1)
+			)
+		)
+	)
+	(zone
+		(net 70)
+		(net_name "/Power_stage/V_SENSE-")
+		(layer "F.Cu")
+		(uuid "ede702f4-d06e-49ff-a7c7-a72786aa3afa")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 75.716967 52.424454) (xy 75.575546 52.283033) (xy 74.18157 52.404216) (xy 69.999293 58.000707)
+				(xy 75.595784 53.81843)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 75.716967 52.424454) (xy 75.575546 52.283033) (xy 74.18157 52.404216) (xy 69.999293 58.000707)
+				(xy 75.595784 53.81843)
 			)
 		)
 	)
