@@ -101,6 +101,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12eb5af5-66c1-4983-8e81-367b9b07981d")
+	)
+	(wire
+		(pts
 			(xy 124.46 99.06) (xy 134.62 99.06)
 		)
 		(stroke
@@ -489,6 +499,16 @@
 				(justify right)
 			)
 		)
+		(pin "V_SENSE" input
+			(at 124.46 110.49 0)
+			(uuid "5c6885a8-5721-4bda-a9ad-027f34b96e05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DC_load"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e"
@@ -574,6 +594,16 @@
 		(pin "SINK_TEMP" output
 			(at 134.62 107.95 180)
 			(uuid "55f39666-0f17-4c72-9483-dc7726b7bb2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_SENSE" output
+			(at 134.62 110.49 180)
+			(uuid "b4519bfe-d7a1-4256-bb0c-492fd5953b45")
 			(effects
 				(font
 					(size 1.27 1.27)

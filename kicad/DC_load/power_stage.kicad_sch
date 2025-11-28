@@ -3724,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 40.64) (xy 259.08 40.64)
+			(xy 259.08 40.64) (xy 265.43 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3880,28 +3880,6 @@
 			)
 		)
 	)
-	(global_label "V_SENSE"
-		(shape output)
-		(at 262.89 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea51dcd9-d17e-49e4-86b7-dcdff7edaf36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.9789 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "CH1_MEAS"
 		(shape output)
 		(at 30.48 57.15 180)
@@ -3923,6 +3901,17 @@
 			(justify left)
 		)
 		(uuid "3ec1d745-8f3a-43f0-b228-85f7d1bf1425")
+	)
+	(hierarchical_label "V_SENSE"
+		(shape output)
+		(at 265.43 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76b229d7-f2d2-421d-9a80-2b6f5aea4a9a")
 	)
 	(hierarchical_label "CH2_MEAS"
 		(shape output)

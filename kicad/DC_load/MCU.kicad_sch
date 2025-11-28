@@ -6684,10 +6684,6 @@
 		(uuid "fdf34344-ecee-417d-aa73-8d4a9330d0b0")
 	)
 	(no_connect
-		(at 292.1 210.82)
-		(uuid "04bceea9-d540-4a69-958f-089d2b1e1760")
-	)
-	(no_connect
 		(at 281.94 190.5)
 		(uuid "08c96df4-9703-47f7-a2ba-44b9664a10bb")
 	)
@@ -7192,6 +7188,16 @@
 			(type default)
 		)
 		(uuid "250b350e-7088-4e46-b26c-dc350447acc1")
+	)
+	(wire
+		(pts
+			(xy 288.29 210.82) (xy 292.1 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251756a3-32a3-434c-9fba-42ba9301f880")
 	)
 	(wire
 		(pts
@@ -8115,7 +8121,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 170.18) (xy 327.66 170.18)
+			(xy 327.66 170.18) (xy 356.87 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10159,6 +10165,28 @@
 			)
 		)
 	)
+	(global_label "CTRL_SEL"
+		(shape output)
+		(at 288.29 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f7fe7f7-b826-42c8-8994-9b825439af69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.4149 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CH1_CONTROL"
 		(shape output)
 		(at 129.54 30.48 0)
@@ -10194,28 +10222,6 @@
 		(uuid "6a6712f1-c838-46d3-af24-51fdb69d503b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 356.1056 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CTRL_SEL"
-		(shape output)
-		(at 344.17 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74e458eb-06af-471b-98b5-c44d106535f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.0451 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,6 +10747,17 @@
 			(justify left)
 		)
 		(uuid "1186f3d3-0a08-4c7d-9cbd-7872282ffebd")
+	)
+	(hierarchical_label "V_SENSE"
+		(shape input)
+		(at 356.87 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2beebd00-e897-4158-b563-cba14360844d")
 	)
 	(hierarchical_label "CH1_MEAS"
 		(shape input)
