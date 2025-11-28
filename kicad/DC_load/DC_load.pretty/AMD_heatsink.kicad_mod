@@ -571,14 +571,25 @@
 	)
 	(fp_rect
 		(start -39 -35)
-		(end 38.998897 35)
+		(end -38 35)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "9cda5191-50ca-408a-b576-d7bff2ab3858")
+		(uuid "a22c0ee9-b13d-4cfc-ab91-8b92bca03b6f")
+	)
+	(fp_rect
+		(start 38 -35)
+		(end 39 35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "bd514250-95dd-4329-b151-5f012ee7bc02")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
