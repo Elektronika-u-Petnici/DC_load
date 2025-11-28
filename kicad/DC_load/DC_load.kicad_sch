@@ -121,6 +121,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 107.95) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5369fd60-1f70-445a-be50-ce6c7a8758c7")
+	)
+	(wire
+		(pts
 			(xy 124.46 104.14) (xy 134.62 104.14)
 		)
 		(stroke
@@ -469,6 +479,16 @@
 				(justify right)
 			)
 		)
+		(pin "SINK_TEMP" input
+			(at 124.46 107.95 0)
+			(uuid "34158834-989e-42ee-be31-50b47d160714")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DC_load"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e"
@@ -544,6 +564,16 @@
 		(pin "CH2_MEAS" output
 			(at 134.62 99.06 180)
 			(uuid "c187d1b7-2621-465d-82f1-06caa705f0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SINK_TEMP" output
+			(at 134.62 107.95 180)
+			(uuid "55f39666-0f17-4c72-9483-dc7726b7bb2c")
 			(effects
 				(font
 					(size 1.27 1.27)

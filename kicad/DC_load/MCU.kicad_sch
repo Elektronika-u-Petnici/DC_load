@@ -6736,10 +6736,6 @@
 		(uuid "41c8e0b4-79b4-444c-bc2e-5fe706843813")
 	)
 	(no_connect
-		(at 281.94 187.96)
-		(uuid "4eec8b9d-b5b2-4bc5-9102-0bf8812f7563")
-	)
-	(no_connect
 		(at 292.1 167.64)
 		(uuid "5a806e19-24db-4371-9dfc-4fdf041803f3")
 	)
@@ -9029,16 +9025,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 187.96) (xy 292.1 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be718226-edc4-4af0-b0e7-a6add230ab94")
-	)
-	(wire
-		(pts
 			(xy 104.14 59.69) (xy 118.11 59.69)
 		)
 		(stroke
@@ -9086,6 +9072,16 @@
 			(type default)
 		)
 		(uuid "c2357454-dd0e-46b1-9b96-bc6e982b0dab")
+	)
+	(wire
+		(pts
+			(xy 287.02 187.96) (xy 292.1 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c349398a-f45b-433e-bbc3-880cf895c6d4")
 	)
 	(wire
 		(pts
@@ -10723,6 +10719,17 @@
 			(justify left)
 		)
 		(uuid "03a7b7a9-4b30-4adc-8f09-7893911db205")
+	)
+	(hierarchical_label "SINK_TEMP"
+		(shape input)
+		(at 287.02 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d2b1b6a-acb6-4056-a4af-22ab6d549e75")
 	)
 	(hierarchical_label "CH2_MEAS"
 		(shape input)

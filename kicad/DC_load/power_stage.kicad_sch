@@ -3836,28 +3836,6 @@
 			)
 		)
 	)
-	(global_label "SW_TEMP"
-		(shape output)
-		(at 204.47 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aedd3011-8b52-4f74-b7dc-d2bf81908ae8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.0183 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CH2_CONTROL"
 		(shape input)
 		(at 158.75 41.91 0)
@@ -3956,6 +3934,17 @@
 			(justify left)
 		)
 		(uuid "998681a6-25c3-4b75-99d7-34faf85010b5")
+	)
+	(hierarchical_label "SINK_TEMP"
+		(shape output)
+		(at 204.47 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abf64e04-8afc-4310-9c8b-e941e2405aa5")
 	)
 	(hierarchical_label "CH3_MEAS"
 		(shape output)
