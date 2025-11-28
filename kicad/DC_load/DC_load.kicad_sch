@@ -89,7 +89,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DODAJ FACE PLATE SA KUKAMA ZA SENSE"
+	(text "3D print face plate je bolja ideja\n"
 		(exclude_from_sim no)
 		(at 164.846 80.518 0)
 		(effects
