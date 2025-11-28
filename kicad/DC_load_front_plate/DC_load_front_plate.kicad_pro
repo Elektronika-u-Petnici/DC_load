@@ -497,7 +497,7 @@
       "specctra_dsn": "",
       "step": "DC_load_front_plate.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "DC_load_front_plate.wrl"
     },
     "page_layout_descr_file": ""
   },
