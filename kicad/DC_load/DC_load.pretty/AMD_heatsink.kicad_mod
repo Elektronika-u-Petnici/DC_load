@@ -676,7 +676,7 @@
 		(uuid "6f9413dc-c589-4fab-b582-00dc6a6518b8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/DC_load.pretty/FHSA7015S-1267.stp"
+	(model "${KIPRJMOD}/DC_load.pretty/amd_heatsink.step"
 		(offset
 			(xyz 0 0 -6)
 		)
