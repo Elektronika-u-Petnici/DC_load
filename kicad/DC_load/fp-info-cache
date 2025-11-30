@@ -1,4 +1,4 @@
-21167045366791
+21167045397328
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57502,7 +57502,7 @@ L_Bourns_SRN6045TA
 http://www.bourns.com/docs/product-datasheets/srn6045ta.pdf
 Semi-shielded Power Inductor
 0
-2
+4
 2
 DC_load
 M3_hole_with_spacer
