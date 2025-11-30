@@ -99,6 +99,16 @@
 		)
 		(uuid "02397397-8ca4-4b73-a770-597868e005a4")
 	)
+	(text "12 V fan control\n"
+		(exclude_from_sim no)
+		(at 162.814 65.278 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "c17b3628-b9fd-4986-af70-1db0fd817591")
+	)
 	(wire
 		(pts
 			(xy 124.46 110.49) (xy 134.62 110.49)
