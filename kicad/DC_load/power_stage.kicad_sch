@@ -2903,12 +2903,6 @@
 		(uuid "6734d93a-f3c8-4a48-8da3-3db3c8a773d0")
 	)
 	(junction
-		(at 38.1 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d5afe82-6c2d-400f-9060-4fd2b25bd5f9")
-	)
-	(junction
 		(at 77.47 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3236,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 90.17) (xy 45.72 90.17)
+			(xy 36.83 90.17) (xy 45.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5066,16 +5060,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 90.17) (xy 38.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db2d2443-331a-4304-9614-b1b672f9dbb8")
-	)
-	(wire
-		(pts
 			(xy 64.77 161.29) (xy 64.77 158.75)
 		)
 		(stroke
@@ -5253,16 +5237,6 @@
 			(type default)
 		)
 		(uuid "eb2df2a4-f589-4c12-86ba-ba18c68e9e12")
-	)
-	(wire
-		(pts
-			(xy 38.1 85.09) (xy 38.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebdab0bf-59e8-4868-a96a-baa8899cbaea")
 	)
 	(wire
 		(pts
@@ -14938,73 +14912,6 @@
 			(project "DC_load"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/6d7f5b85-3e99-49f9-8c4c-aaf8053997e0"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba61611e-a4d0-4192-8dd8-054827a463fd")
-		(property "Reference" "TP10"
-			(at 35.56 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 35.56 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77fab987-724f-4f60-a6c8-6dff0138e145")
-		)
-		(instances
-			(project "DC_load"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/6d7f5b85-3e99-49f9-8c4c-aaf8053997e0"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
