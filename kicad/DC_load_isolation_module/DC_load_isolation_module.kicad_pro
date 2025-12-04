@@ -472,7 +472,7 @@
     ]
   },
   "meta": {
-    "filename": "DC_load.kicad_pro",
+    "filename": "DC_load_isolation_module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -664,14 +664,6 @@
     [
       "ce255642-b081-42cc-af02-07a78c62b42e",
       "Root"
-    ],
-    [
-      "6d7f5b85-3e99-49f9-8c4c-aaf8053997e0",
-      "Power_stage"
-    ],
-    [
-      "57db3589-054f-4b81-a218-89ac743ece5d",
-      "Microcontroller"
     ]
   ],
   "text_variables": {}

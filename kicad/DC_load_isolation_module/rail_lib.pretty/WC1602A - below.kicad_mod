@@ -54,89 +54,16 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -4.1 27.9)
-		(end -4.1 4.4)
+	(fp_rect
+		(start -4.1 3.4)
+		(end 67.9 28.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "26d2f83e-803c-42f6-bb2e-1162ffd5c5b5")
-	)
-	(fp_line
-		(start -3.1 3.4)
-		(end 66.9 3.4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "2b12edef-5bec-475d-aa60-e96aa3a570da")
-	)
-	(fp_line
-		(start 66.9 28.9)
-		(end -3.1 28.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "49e08f22-8670-487a-a5a6-89cc1927f2ef")
-	)
-	(fp_line
-		(start 67.9 4.4)
-		(end 67.9 27.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "da783ef3-20ab-48a2-9c8a-f83035e25869")
-	)
-	(fp_arc
-		(start -4.1 4.4)
-		(mid -3.807107 3.692893)
-		(end -3.1 3.4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7fde66c3-8f4d-44cc-93ee-7c1c7a47edc2")
-	)
-	(fp_arc
-		(start -3.1 28.9)
-		(mid -3.807107 28.607107)
-		(end -4.1 27.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "320ed749-f417-4bef-af2e-b2548aba6b9e")
-	)
-	(fp_arc
-		(start 66.9 3.4)
-		(mid 67.607107 3.692893)
-		(end 67.9 4.4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ccd90d67-bed2-48e8-b476-30c1179736fe")
-	)
-	(fp_arc
-		(start 67.9 27.9)
-		(mid 67.607107 28.607107)
-		(end 66.9 28.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4ae7f256-06ca-4851-833e-9ad50457ddcb")
+		(uuid "cad721e3-99a0-4016-a7c9-61a2a4c1ff13")
 	)
 	(fp_line
 		(start -8.25 -2.75)
@@ -272,7 +199,7 @@
 		(uuid "2bd659da-d8f6-4218-824e-71fa33ed2a03")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PID_lib.pretty/LCD 16X2.STEP"
+	(model "${KIPRJMOD}/rail_lib.pretty/LCD 16X2.STEP"
 		(offset
 			(xyz 49.5 30.5 -6.5)
 		)
