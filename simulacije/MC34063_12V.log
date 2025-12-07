@@ -1,0 +1,27 @@
+Circuit: * Z:\home\ostoja\Petnica\DC_load\simulacije\MC34063_12V.asc
+
+u1:v7: Missing value, assumed 0V @ DC
+Per .tran options, skipping operating point for transient analysis.
+Ignoring empty pin current: Ix(tof1:nodeminus)
+Ignoring empty pin current: Ix(tof1:nodeplus)
+Ignoring empty pin current: Ix(tof1:plus)
+Ignoring empty pin current: Ix(tof1:minus)
+Heightened Def Con from 0.0177506 to 0.0177506
+
+Date: Sun Dec 07 00:30:40 2025
+Total elapsed time: 8.080 seconds.
+
+tnom = 27
+temp = 27
+method = Gear
+totiter = 1808369
+traniter = 1808369
+tranpoints = 535607
+accept = 442514
+rejected = 93094
+matrix size = 54
+fillins = 55
+solver = Normal
+Matrix Compiler1: 5.84 KB object code size  0.7/0.4/[0.2]
+Matrix Compiler2: 5.06 KB object code size  0.3/0.5/[0.2]
+

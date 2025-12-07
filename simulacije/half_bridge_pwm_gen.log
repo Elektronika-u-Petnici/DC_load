@@ -1,0 +1,63 @@
+Circuit: * Z:\home\ostoja\Petnica\DC_load\simulacije\half_bridge_pwm_gen.asc
+
+WARNING: Node MID is floating.
+WARNING: Node NC_03 is floating.
+
+WARNING: Less than two connections to node U1:U1:UA:TEST.  This node is used by E:U1:U1:UA:TEST.
+WARNING: Less than two connections to node U1:U1:UA:VTH_DIFF.  This node is used by E:U1:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U1:U1:UB:TEST.  This node is used by E:U1:U1:UB:TEST.
+WARNING: Less than two connections to node U1:U1:UB:VTH_DIFF.  This node is used by E:U1:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U2:U1:UA:TEST.  This node is used by E:U2:U1:UA:TEST.
+WARNING: Less than two connections to node U2:U1:UA:VTH_DIFF.  This node is used by E:U2:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U2:U1:UB:TEST.  This node is used by E:U2:U1:UB:TEST.
+WARNING: Less than two connections to node U2:U1:UB:VTH_DIFF.  This node is used by E:U2:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U3:U1:UA:TEST.  This node is used by E:U3:U1:UA:TEST.
+WARNING: Less than two connections to node U3:U1:UA:VTH_DIFF.  This node is used by E:U3:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U3:U1:UB:TEST.  This node is used by E:U3:U1:UB:TEST.
+WARNING: Less than two connections to node U3:U1:UB:VTH_DIFF.  This node is used by E:U3:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U4:U1:UA:TEST.  This node is used by E:U4:U1:UA:TEST.
+WARNING: Less than two connections to node U4:U1:UA:VTH_DIFF.  This node is used by E:U4:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U4:U1:UB:TEST.  This node is used by E:U4:U1:UB:TEST.
+WARNING: Less than two connections to node U4:U1:UB:VTH_DIFF.  This node is used by E:U4:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U5:U1:UA:TEST.  This node is used by E:U5:U1:UA:TEST.
+WARNING: Less than two connections to node U5:U1:UA:VTH_DIFF.  This node is used by E:U5:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U5:U1:UB:TEST.  This node is used by E:U5:U1:UB:TEST.
+WARNING: Less than two connections to node U5:U1:UB:VTH_DIFF.  This node is used by E:U5:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U6:U1:UA:TEST.  This node is used by E:U6:U1:UA:TEST.
+WARNING: Less than two connections to node U6:U1:UA:VTH_DIFF.  This node is used by E:U6:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U6:U1:UB:TEST.  This node is used by E:U6:U1:UB:TEST.
+WARNING: Less than two connections to node U6:U1:UB:VTH_DIFF.  This node is used by E:U6:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node LS.  This node is used by V2.
+WARNING: Less than two connections to node EFFICIENCY.  This node is used by B3.
+WARNING: Less than two connections to node LOSSES.  This node is used by B4.
+WARNING: Less than two connections to node HS.  This node is used by V4.
+WARNING: Less than two connections to node MID.  This node is used by V4.
+WARNING: Less than two connections to node N008.  This node is used by R12.
+WARNING: Less than two connections to node NC_02.  This node is used by E1.
+WARNING: Less than two connections to node NC_03.  This node is used by E1.
+Per .tran options, skipping operating point for transient analysis.
+Changing Tseed to 1.95313e-010
+Changing Tseed to 1.95312e-012
+Changing Tseed to 1.95312e-009
+Heightened Def Con from 3.15495e-005 to 3.15525e-005
+Heightened Def Con from 5.41497e-005 to 5.41527e-005
+Heightened Def Con from 6.21999e-005 to 6.21999e-005
+
+Date: Sun Dec 07 01:23:57 2025
+Total elapsed time: 11.974 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 83979
+traniter = 83979
+tranpoints = 23671
+accept = 15933
+rejected = 7738
+matrix size = 801
+fillins = 181
+solver = Normal
+Thread vector: 137.8/31.8[16] 4.3/5.2[1] 51.1/13.7[16] 1.4/19.9[1]  2592/500
+Matrix Compiler1: 27.97 KB object code size  8.3/4.1/[1.7]
+Matrix Compiler2: 50.50 KB object code size  5.9/8.3/[2.3]
+
