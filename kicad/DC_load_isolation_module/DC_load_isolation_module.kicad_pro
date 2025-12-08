@@ -664,6 +664,14 @@
     [
       "ce255642-b081-42cc-af02-07a78c62b42e",
       "Root"
+    ],
+    [
+      "85274e98-f338-4a39-9e26-d9d8f651509e",
+      "Isolated logic"
+    ],
+    [
+      "86834b43-91da-454a-8d64-a9b9933c3bbb",
+      "Isolated supply"
     ]
   ],
   "text_variables": {}
