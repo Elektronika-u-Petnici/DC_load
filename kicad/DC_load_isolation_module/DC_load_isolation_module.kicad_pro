@@ -672,6 +672,10 @@
     [
       "86834b43-91da-454a-8d64-a9b9933c3bbb",
       "Isolated supply"
+    ],
+    [
+      "c995b483-e4b0-422e-944a-1e5735d2113f",
+      "Boost"
     ]
   ],
   "text_variables": {}
