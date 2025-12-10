@@ -1963,12 +1963,6 @@
 		(uuid "10575e51-45ca-404d-b9b4-99c2ee1b0a73")
 	)
 	(junction
-		(at 67.31 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1466666d-3cb6-4e90-b8a7-4db8524bc0b5")
-	)
-	(junction
 		(at 111.76 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2033,6 +2027,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89b88280-badd-411c-a3a4-289be26c93d2")
+	)
+	(junction
+		(at 67.31 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d9d6738-b68e-4543-a30e-e074ae6cba24")
 	)
 	(junction
 		(at 54.61 74.93)
@@ -2176,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 85.09) (xy 48.26 74.93)
+			(xy 41.91 85.09) (xy 41.91 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2186,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 54.61 74.93)
+			(xy 48.26 85.09) (xy 48.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 92.71) (xy 41.91 100.33)
+			(xy 67.31 92.71) (xy 67.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2226,17 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 74.93) (xy 67.31 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dca609c-e2ef-4432-8112-b4f276360a9d")
-	)
-	(wire
-		(pts
-			(xy 67.31 85.09) (xy 67.31 74.93)
+			(xy 60.96 85.09) (xy 60.96 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2253,6 +2243,16 @@
 			(type default)
 		)
 		(uuid "31880237-7356-4dd2-8a60-9c54e2c159fa")
+	)
+	(wire
+		(pts
+			(xy 48.26 74.93) (xy 54.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32941c6f-b72d-4dca-8ecf-68afc89a313c")
 	)
 	(wire
 		(pts
@@ -2426,6 +2426,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 74.93) (xy 60.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608f1f00-192c-4e96-962c-b8ac3aab083d")
+	)
+	(wire
+		(pts
 			(xy 105.41 78.74) (xy 105.41 74.93)
 		)
 		(stroke
@@ -2463,6 +2473,16 @@
 			(type default)
 		)
 		(uuid "65ce17ee-6bcc-4238-a5c1-8b658ef38cba")
+	)
+	(wire
+		(pts
+			(xy 67.31 74.93) (xy 72.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c04c600-041d-4634-be2e-8979e00feb14")
 	)
 	(wire
 		(pts
@@ -2566,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 92.71) (xy 48.26 100.33)
+			(xy 41.91 92.71) (xy 41.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 85.09) (xy 41.91 74.93)
+			(xy 67.31 85.09) (xy 67.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 92.71) (xy 54.61 100.33)
+			(xy 48.26 92.71) (xy 48.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 85.09) (xy 60.96 74.93)
+			(xy 54.61 85.09) (xy 54.61 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 67.31 100.33)
+			(xy 60.96 92.71) (xy 60.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2723,16 +2743,6 @@
 			(type default)
 		)
 		(uuid "b5fe3b14-c25f-4e94-b403-71aa8f4c9e13")
-	)
-	(wire
-		(pts
-			(xy 48.26 74.93) (xy 54.61 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ae89be-b158-47c2-8cd0-8207db7efc96")
 	)
 	(wire
 		(pts
@@ -2826,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 92.71) (xy 60.96 100.33)
+			(xy 54.61 92.71) (xy 54.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2923,16 +2933,6 @@
 			(type default)
 		)
 		(uuid "e382b0d6-16d9-4671-8a84-2b98f5fb71fe")
-	)
-	(wire
-		(pts
-			(xy 67.31 74.93) (xy 72.39 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71aee78-bdf6-4dde-8d49-4b1b1b487af4")
 	)
 	(wire
 		(pts
@@ -3319,7 +3319,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 48.26 100.33 0)
+		(at 41.91 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3328,7 +3328,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c662421-78bd-4809-b79b-0069b23c5c05")
 		(property "Reference" "#PWR028"
-			(at 48.26 106.68 0)
+			(at 41.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3337,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 48.26 105.41 0)
+			(at 41.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 100.33 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 100.33 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 48.26 100.33 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3386,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 88.9 0)
+		(at 67.31 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3395,7 +3395,7 @@
 		(dnp no)
 		(uuid "22f8ad3e-518a-45ac-9c17-e9e34701a5c6")
 		(property "Reference" "C4"
-			(at 37.592 86.614 0)
+			(at 62.992 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3404,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 36.322 91.186 0)
+			(at 61.722 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3413,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 40.9448 92.71 0)
+			(at 66.3448 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 88.9 0)
+			(at 67.31 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 88.9 0)
+			(at 67.31 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3439,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 41.91 88.9 90)
+			(at 67.31 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3540,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 67.31 100.33 0)
+		(at 60.96 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3549,7 +3549,7 @@
 		(fields_autoplaced yes)
 		(uuid "25c1c657-4245-4060-92c7-4dea4cd1cde6")
 		(property "Reference" "#PWR030"
-			(at 67.31 106.68 0)
+			(at 60.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3558,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 67.31 105.41 0)
+			(at 60.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 100.33 0)
+			(at 60.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 100.33 0)
+			(at 60.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 67.31 100.33 0)
+			(at 60.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4053,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 88.9 0)
+		(at 54.61 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4062,7 +4062,7 @@
 		(dnp no)
 		(uuid "3f9720b3-1cc0-4562-b287-3cf3805e84b7")
 		(property "Reference" "C7"
-			(at 58.928 86.614 0)
+			(at 52.578 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +4070,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 58.928 91.186 0)
+			(at 52.578 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 59.9948 92.71 0)
+			(at 53.6448 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 88.9 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 88.9 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 60.96 88.9 90)
+			(at 54.61 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4563,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 67.31 88.9 0)
+		(at 60.96 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4572,7 +4572,7 @@
 		(dnp no)
 		(uuid "5a497581-e7bb-4e95-b1a0-603ee7945a0b")
 		(property "Reference" "C8"
-			(at 65.278 86.614 0)
+			(at 58.928 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4580,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 65.278 91.186 0)
+			(at 58.928 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4588,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 66.3448 92.71 0)
+			(at 59.9948 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4606,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4614,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 67.31 88.9 90)
+			(at 60.96 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5433,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 88.9 0)
+		(at 41.91 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5442,7 +5442,7 @@
 		(dnp no)
 		(uuid "8cd57484-fbb2-412f-9e4a-13d1aec839ca")
 		(property "Reference" "C5"
-			(at 46.228 86.614 0)
+			(at 39.878 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 46.228 91.186 0)
+			(at 39.878 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5458,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 47.2948 92.71 0)
+			(at 40.9448 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 88.9 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5476,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 88.9 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5484,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 48.26 88.9 90)
+			(at 41.91 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5642,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 54.61 100.33 0)
+		(at 48.26 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5651,7 +5651,7 @@
 		(fields_autoplaced yes)
 		(uuid "95b6282f-6b7a-44c9-9db8-4a7e1058f035")
 		(property "Reference" "#PWR029"
-			(at 54.61 106.68 0)
+			(at 48.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5660,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 54.61 105.41 0)
+			(at 48.26 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 100.33 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 100.33 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 54.61 100.33 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6080,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 60.96 100.33 0)
+		(at 54.61 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6089,7 +6089,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbb6e5d5-f813-4c5e-a341-a6abd1dae39d")
 		(property "Reference" "#PWR031"
-			(at 60.96 106.68 0)
+			(at 54.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6098,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 60.96 105.41 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 100.33 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 100.33 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 60.96 100.33 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6147,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 41.91 100.33 0)
+		(at 67.31 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6156,7 +6156,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd74ce92-42f4-4d8e-bd4c-a6dd39d8cb2d")
 		(property "Reference" "#PWR048"
-			(at 41.91 106.68 0)
+			(at 67.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6165,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 41.91 105.41 0)
+			(at 67.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 100.33 0)
+			(at 67.31 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 100.33 0)
+			(at 67.31 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 41.91 100.33 0)
+			(at 67.31 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6440,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 88.9 0)
+		(at 48.26 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6449,7 +6449,7 @@
 		(dnp no)
 		(uuid "d523b7f0-2e2a-45ac-a9d9-f0ada570c8dd")
 		(property "Reference" "C6"
-			(at 52.578 86.614 0)
+			(at 46.228 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6457,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 52.578 91.186 0)
+			(at 46.228 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6465,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 53.6448 92.71 0)
+			(at 47.2948 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 88.9 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 88.9 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6491,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 54.61 88.9 90)
+			(at 48.26 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)

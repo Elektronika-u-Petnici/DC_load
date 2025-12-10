@@ -6371,7 +6371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -6592,7 +6592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 54.61 31.75 0)
 			(effects
 				(font
@@ -7838,7 +7838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 55.88 124.46 0)
 			(effects
 				(font
@@ -8826,7 +8826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 217.17 124.46 0)
 			(effects
 				(font
@@ -9622,7 +9622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 217.17 31.75 0)
 			(effects
 				(font
@@ -11103,7 +11103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 168.91 124.46 0)
 			(effects
 				(font
@@ -12798,7 +12798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -13019,7 +13019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 26.67 124.46 0)
 			(effects
 				(font
@@ -13393,7 +13393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 190.5 31.75 0)
 			(effects
 				(font
@@ -14334,7 +14334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -15212,7 +15212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -15488,7 +15488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 203.2 31.75 0)
 			(effects
 				(font
@@ -16105,7 +16105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 43.18 124.46 0)
 			(effects
 				(font
@@ -17551,7 +17551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 74.93 31.75 0)
 			(effects
 				(font
@@ -17992,7 +17992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 76.2 124.46 0)
 			(effects
 				(font
@@ -18059,7 +18059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "VCC"
 			(at 201.93 124.46 0)
 			(effects
 				(font
