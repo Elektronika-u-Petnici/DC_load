@@ -204,6 +204,7 @@
 	(net 79 "unconnected-(U5-Pad6)")
 	(net 80 "unconnected-(U5-Pad2)")
 	(net 81 "unconnected-(U5-Pad10)")
+	(net 82 "Net-(T1-SA-Pad5)")
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "00d07535-e6ff-4cbc-bd17-40a5d9a2ce78")
@@ -15200,7 +15201,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/86834b43-91da-454a-8d64-a9b9933c3bbb/f3c82484-640d-4d92-92e5-4dfa0a6dce7e")
+		(path "/86834b43-91da-454a-8d64-a9b9933c3bbb/e87e40b4-92ae-4c8c-b033-9c3ff9ecb1f1")
 		(sheetname "/Isolated supply/")
 		(sheetfile "isolated_supply.kicad_sch")
 		(attr smd)
@@ -26673,6 +26674,272 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "DC_load:UMEC_UT20A13S"
+		(layer "F.Cu")
+		(uuid "d42eafa5-4a63-479a-98af-e171d2ac3f1f")
+		(at 115.75 170.25)
+		(descr "SMT Gate Drive Transformer, 1:1, 7.1x6.1x5.5mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)")
+		(tags "pulse pa2777nl")
+		(property "Reference" "T1"
+			(at 0 -6 0)
+			(layer "F.SilkS")
+			(uuid "92ec2375-0e49-477a-9a7a-fd5b990b4f55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "UMEC_UT20A13S"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "5e21d979-8a36-4402-bbeb-ba619a2360d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5505fa53-216d-4704-8393-d852b9ccc7f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Transformer, single primary, single secondary, SO-8 package"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcd066e1-902d-411a-ac45-178ddd939818")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Secondary" "73 uH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc11cc86-2222-4881-92ba-43cc67e3d3e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Primary" "104 uH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60651fd9-94ea-4f83-9184-13e54eb5ba23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Bela tačka" "white dot"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3453b834-405e-4741-a1ad-ef9f5a5366eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/86834b43-91da-454a-8d64-a9b9933c3bbb/13271fcd-a26e-4ec3-b822-dcfd35739140")
+		(sheetname "/Isolated supply/")
+		(sheetfile "isolated_supply.kicad_sch")
+		(attr smd)
+		(fp_poly
+			(pts
+				(xy -4.92 -3.75) (xy -5.25 -3.51) (xy -5.25 -3.99) (xy -4.92 -3.75)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "bd7bd481-0a3b-445f-8586-fffb4434e2bd")
+		)
+		(fp_rect
+			(start -5.5127 -5)
+			(end 5.5127 5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6a9edea3-face-4874-82e1-28d54d4de483")
+		)
+		(fp_line
+			(start -3.7 3.15)
+			(end -3.7 -2.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e6458648-44c3-4d49-982b-da18d4a53a67")
+		)
+		(fp_line
+			(start -2.7 -3.15)
+			(end -3.7 -2.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4d68f4d8-8291-4bbf-8d2c-8d29b209f98f")
+		)
+		(fp_line
+			(start -2.7 -3.15)
+			(end 3.7 -3.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "70837972-ecb5-4b62-94d9-e0705a6b04ee")
+		)
+		(fp_line
+			(start 3.7 -3.15)
+			(end 3.7 3.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5d65685-7a43-46e1-a127-2870a8c3d626")
+		)
+		(fp_line
+			(start 3.7 3.15)
+			(end -3.7 3.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "689c08d6-8fe8-4412-963b-6cfcbaf0d1e5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -4.55 7.75 0)
+			(layer "F.Fab")
+			(uuid "a82a4cbe-0676-4754-acf9-9d5d44d5cc89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.75 -3.81)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 33 "Net-(Q10-D)")
+			(pinfunction "AA")
+			(pintype "passive")
+			(uuid "b34741ef-5c44-4844-90c6-bca5661e131b")
+		)
+		(pad "2" smd rect
+			(at -3.75 -1.27)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 33 "Net-(Q10-D)")
+			(pinfunction "AA")
+			(pintype "passive")
+			(uuid "731ac1dd-83b2-49cf-bac2-91c0cca223f8")
+		)
+		(pad "3" smd rect
+			(at -3.75 1.27)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 57 "Net-(JP5-B)")
+			(pinfunction "AB")
+			(pintype "passive")
+			(uuid "9a64668b-f945-4213-888d-5fe25a102efd")
+		)
+		(pad "4" smd rect
+			(at -3.75 3.81)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 36 "Net-(JP5-A)")
+			(pinfunction "AB")
+			(pintype "passive")
+			(uuid "3fc5970c-d2d4-4036-98a9-0a5282268ebe")
+		)
+		(pad "5" smd rect
+			(at 3.75 3.81)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 82 "Net-(T1-SA-Pad5)")
+			(pinfunction "SA")
+			(pintype "passive")
+			(uuid "403187a3-cdc1-446c-9f7b-9bb53e0be16d")
+		)
+		(pad "6" smd rect
+			(at 3.75 1.27)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 45 "Net-(D8-A)")
+			(pinfunction "SA")
+			(pintype "passive")
+			(uuid "30c84614-99bf-47d3-8fbb-c77f9adfb82c")
+		)
+		(pad "7" smd rect
+			(at 3.75 -1.27)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 82 "Net-(T1-SA-Pad5)")
+			(pinfunction "SB")
+			(pintype "passive")
+			(uuid "b20af57c-a3c0-4942-bbbe-2c3fb02d6eae")
+		)
+		(pad "8" smd rect
+			(at 3.75 -3.81)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 42 "Net-(D4-A)")
+			(pinfunction "SB")
+			(pintype "passive")
+			(uuid "aaa866d0-f8a0-49f5-a300-18e6d2ea0e70")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Pulse_PA2777NL.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
