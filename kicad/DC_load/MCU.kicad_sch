@@ -16787,7 +16787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+		(property "Footprint" "DC_load:TS-1088-AR02016"
 			(at 196.85 43.18 0)
 			(effects
 				(font
@@ -16807,6 +16807,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 201.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 201.93 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22207,7 +22216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+		(property "Footprint" "DC_load:TS-1088-AR02016"
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -22227,6 +22236,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 172.72 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)

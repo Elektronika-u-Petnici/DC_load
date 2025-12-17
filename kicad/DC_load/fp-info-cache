@@ -1,4 +1,4 @@
-21168171512328
+22934132862813
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57511,6 +57511,13 @@ mounting hole 3.2mm m3 iso14580
 0
 3
 1
+DC_load
+TS-1088-AR02016
+http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
+SMD SMT button
+0
+2
+2
 DC_load
 front_plate
 LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
