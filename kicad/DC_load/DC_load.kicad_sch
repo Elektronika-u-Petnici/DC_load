@@ -102,16 +102,6 @@
 		)
 		(uuid "1a2c9bc5-428c-4a3e-a5b2-2c3c11ee9b61")
 	)
-	(text "JLC ima tastere "
-		(exclude_from_sim no)
-		(at 101.346 87.376 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-		)
-		(uuid "7d5c29f8-5747-4c4d-898b-2878acf708bd")
-	)
 	(wire
 		(pts
 			(xy 104.14 58.42) (xy 114.3 58.42)
