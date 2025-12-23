@@ -611,6 +611,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Secondary",
+          "name": "Secondary",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bela tačka",
+          "name": "Bela tačka",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Primary",
+          "name": "Primary",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Partname",
+          "name": "Partname",
+          "show": false
         }
       ],
       "filter_string": "",
