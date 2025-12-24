@@ -114,23 +114,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 27.94) (xy 93.98 27.94)
+			(xy 80.01 43.18) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9d8e280-eb6d-4692-bc0e-5518421b6f8c")
+		(uuid "8bac5611-35ea-4840-b258-71ff7aba4309")
 	)
 	(wire
 		(pts
-			(xy 80.01 25.4) (xy 93.98 25.4)
+			(xy 80.01 45.72) (xy 93.98 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba51ebaf-e8c8-44ad-ab65-67e6ad8fd8dd")
+		(uuid "fc49c92f-5f42-491c-87e4-66735622a327")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -389,8 +389,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 46.99)
-		(size 35.56 26.67)
+		(at 93.98 62.23)
+		(size 35.56 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -405,7 +405,7 @@
 		)
 		(uuid "85274e98-f338-4a39-9e26-d9d8f651509e")
 		(property "Sheetname" "Isolated logic"
-			(at 93.98 46.2784 0)
+			(at 93.98 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,8 +451,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 22.86)
-		(size 35.56 16.51)
+		(at 93.98 40.64)
+		(size 35.56 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -467,7 +467,7 @@
 		)
 		(uuid "86834b43-91da-454a-8d64-a9b9933c3bbb")
 		(property "Sheetname" "Isolated supply"
-			(at 93.98 22.1484 0)
+			(at 93.98 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +476,7 @@
 			)
 		)
 		(property "Sheetfile" "isolated_supply.kicad_sch"
-			(at 93.98 39.9546 0)
+			(at 93.98 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,7 +485,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 93.98 27.94 180)
+			(at 93.98 45.72 180)
 			(uuid "40b15d9c-575d-44a8-ba78-ef3ebc311a6f")
 			(effects
 				(font
@@ -495,7 +495,7 @@
 			)
 		)
 		(pin "12V" input
-			(at 93.98 25.4 180)
+			(at 93.98 43.18 180)
 			(uuid "f9ec3c7f-5a3e-4b45-b0a8-c6d68fc7bac4")
 			(effects
 				(font
@@ -508,6 +508,48 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 22.86)
+		(size 35.56 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "acb3fb6f-8a66-4a1f-8458-7972da3ba4df")
+		(property "Sheetname" "Self resonating flyback"
+			(at 93.98 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "srf.kicad_sch"
+			(at 93.98 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e"
+					(page "5")
 				)
 			)
 		)
@@ -567,7 +609,7 @@
 			)
 		)
 		(pin "12V" output
-			(at 80.01 25.4 0)
+			(at 80.01 43.18 0)
 			(uuid "41bbe74e-c872-448c-887c-4323165764a8")
 			(effects
 				(font
@@ -577,7 +619,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 80.01 27.94 0)
+			(at 80.01 45.72 0)
 			(uuid "2006f213-cddf-413a-9d0c-9ab3cdb85384")
 			(effects
 				(font

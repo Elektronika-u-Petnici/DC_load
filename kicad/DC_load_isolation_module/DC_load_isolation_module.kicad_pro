@@ -700,6 +700,10 @@
     [
       "c995b483-e4b0-422e-944a-1e5735d2113f",
       "Boost"
+    ],
+    [
+      "acb3fb6f-8a66-4a1f-8458-7972da3ba4df",
+      "Self resonating flyback"
     ]
   ],
   "text_variables": {}
