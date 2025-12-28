@@ -3932,19 +3932,19 @@
 		(uuid "ffac9c06-039b-45cc-8e87-445e48a08bfa")
 	)
 	(no_connect
-		(at 250.19 128.27)
+		(at 167.64 191.77)
 		(uuid "25470644-e314-4e93-92ad-78438bec12eb")
 	)
 	(no_connect
-		(at 250.19 120.65)
+		(at 167.64 184.15)
 		(uuid "68ae8f22-ed39-490c-95ca-6c463fe8a9f3")
 	)
 	(no_connect
-		(at 250.19 113.03)
+		(at 167.64 176.53)
 		(uuid "eb408b0a-b1c5-4b78-8946-e3a7b1f29eb4")
 	)
 	(no_connect
-		(at 250.19 105.41)
+		(at 167.64 168.91)
 		(uuid "fc41b480-b237-4f52-95be-e717675f65da")
 	)
 	(wire
@@ -6338,6 +6338,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 152.4 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "025389b6-d314-429b-8c47-9c8243365837")
+		(property "Reference" "#PWR084"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 147.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f6103f-5b0a-4bda-bd68-2977f584556a")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 104.14 54.61 0)
 		(unit 1)
@@ -6824,8 +6891,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 152.4 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1740b71d-697b-4b2c-9118-0c381d676f6c")
+		(property "Reference" "#PWR083"
+			(at 146.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74c8ac30-75a0-4fb7-8cf0-c07eb37ba1b3")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC14")
-		(at 242.57 128.27 0)
+		(at 160.02 191.77 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6833,7 +6967,7 @@
 		(dnp no)
 		(uuid "189495a8-dfe9-4dc3-a4a7-99462d3a2387")
 		(property "Reference" "U5"
-			(at 248.666 122.682 0)
+			(at 166.116 186.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +6975,7 @@
 			)
 		)
 		(property "Value" "74HC14D653"
-			(at 248.666 125.222 0)
+			(at 166.116 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +6983,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 242.57 128.27 0)
+			(at 160.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +6992,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708675566587904"
-			(at 242.57 128.27 0)
+			(at 160.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +7001,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 242.57 128.27 0)
+			(at 160.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +7010,7 @@
 			)
 		)
 		(property "LCSC" "C5605"
-			(at 242.57 128.27 0)
+			(at 160.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,142 +7213,6 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 113.03 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21575aad-8f88-436d-acd1-d3f08375bf3f")
-		(property "Reference" "#PWR084"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e86399d4-d0f9-4e3f-8fbd-9e99c37fb520")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 120.65 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21762c72-e8a1-48b4-9115-281a32ac5cf5")
-		(property "Reference" "#PWR085"
-			(at 228.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11b19da6-9494-4319-b845-32c9332f8ff1")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8595,74 +8593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 105.41 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57f03f41-4f61-48f8-ae3a-2025cc9eb0a1")
-		(property "Reference" "#PWR083"
-			(at 228.6 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "996486c8-9aab-4983-b76b-9e56c80028b9")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N5819WS")
 		(at 200.66 95.25 270)
 		(unit 1)
@@ -8889,74 +8819,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 128.27 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61aa8ce0-a5d2-4631-9328-5b67d38a6610")
-		(property "Reference" "#PWR086"
-			(at 228.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb3c1e66-f52c-433f-b7ae-d71b48753ef0")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 87.63 54.61 270)
 		(mirror x)
@@ -9103,6 +8965,73 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 152.4 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6414519a-42e3-4bcc-ac78-91ab2c05047c")
+		(property "Reference" "#PWR0140"
+			(at 146.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 147.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 152.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89dfe267-3194-488c-8865-442c40c1a2ca")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -9292,6 +9221,73 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 152.4 191.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b2124d1-b2d8-45ce-b911-c4c835b528eb")
+		(property "Reference" "#PWR085"
+			(at 146.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 147.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 152.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c80410b4-d97c-49b3-b3f1-73de6082ea7c")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/86834b43-91da-454a-8d64-a9b9933c3bbb"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -9519,7 +9515,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 242.57 120.65 0)
+		(at 160.02 184.15 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9527,7 +9523,7 @@
 		(dnp no)
 		(uuid "6f8ec61f-676d-470c-9243-1f08ba7414ff")
 		(property "Reference" "U5"
-			(at 248.92 115.824 0)
+			(at 166.37 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9532,7 @@
 			)
 		)
 		(property "Value" "74HC14D653"
-			(at 249.174 117.856 0)
+			(at 166.624 181.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9540,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 242.57 120.65 0)
+			(at 160.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9549,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708675566587904"
-			(at 242.57 120.65 0)
+			(at 160.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9558,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 242.57 120.65 0)
+			(at 160.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9567,7 @@
 			)
 		)
 		(property "LCSC" "C5605"
-			(at 242.57 120.65 0)
+			(at 160.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11768,7 +11764,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 242.57 105.41 0)
+		(at 160.02 168.91 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11776,7 +11772,7 @@
 		(dnp no)
 		(uuid "a4acc43b-baf3-46c0-a705-f9ed299fea65")
 		(property "Reference" "U5"
-			(at 248.158 99.822 0)
+			(at 165.608 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11784,7 +11780,7 @@
 			)
 		)
 		(property "Value" "74HC14D653"
-			(at 248.158 102.362 0)
+			(at 165.608 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +11788,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 242.57 105.41 0)
+			(at 160.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,7 +11797,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708675566587904"
-			(at 242.57 105.41 0)
+			(at 160.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,7 +11806,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 242.57 105.41 0)
+			(at 160.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +11815,7 @@
 			)
 		)
 		(property "LCSC" "C5605"
-			(at 242.57 105.41 0)
+			(at 160.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +12599,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 242.57 113.03 0)
+		(at 160.02 176.53 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12611,7 +12607,7 @@
 		(dnp no)
 		(uuid "c533eab8-c432-4035-9745-e2d67e190df1")
 		(property "Reference" "U5"
-			(at 248.666 107.442 0)
+			(at 166.116 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12615,7 @@
 			)
 		)
 		(property "Value" "74HC14D653"
-			(at 248.666 109.982 0)
+			(at 166.116 173.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12627,7 +12623,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 242.57 113.03 0)
+			(at 160.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12636,7 +12632,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708675566587904"
-			(at 242.57 113.03 0)
+			(at 160.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12645,7 +12641,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 242.57 113.03 0)
+			(at 160.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +12650,7 @@
 			)
 		)
 		(property "LCSC" "C5605"
-			(at 242.57 113.03 0)
+			(at 160.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
