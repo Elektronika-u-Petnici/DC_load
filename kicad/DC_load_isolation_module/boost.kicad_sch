@@ -3673,6 +3673,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 129.54) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0334cada-175e-4bca-b3ea-feac90b83da1")
+	)
+	(wire
+		(pts
 			(xy 24.13 78.74) (xy 24.13 81.28)
 		)
 		(stroke
@@ -3710,6 +3720,16 @@
 			(type default)
 		)
 		(uuid "0b682cdd-1c62-4234-9e39-84f2b3a5d1c0")
+	)
+	(wire
+		(pts
+			(xy 240.03 109.22) (xy 240.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc3ff9e-eb0e-400e-9603-a52ea6055b30")
 	)
 	(wire
 		(pts
@@ -4193,7 +4213,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 171.45 110.49)
+			(xy 143.51 110.49) (xy 171.45 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4513,6 +4533,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 149.86) (xy 182.88 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961bb6ca-0195-4b86-978b-4057d152b417")
+	)
+	(wire
+		(pts
+			(xy 171.45 109.22) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971e79bc-3be1-4869-b15f-3579aaf7ecbd")
+	)
+	(wire
+		(pts
 			(xy 76.2 120.65) (xy 87.63 120.65)
 		)
 		(stroke
@@ -4783,7 +4823,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 110.49) (xy 118.11 110.49)
+			(xy 109.22 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5937,6 +5977,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 182.88 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2404aff5-04c1-41bb-a360-1169f1782b59")
+		(property "Reference" "#PWR0120"
+			(at 182.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 182.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "246c12d1-d3fa-4f6d-8537-529bfa75980a")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/c995b483-e4b0-422e-944a-1e5735d2113f"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 124.46 0)
 		(mirror y)
@@ -6301,7 +6408,7 @@
 	)
 	(symbol
 		(lib_id "solar_push_pull_sym_lib:SRN6045HA-4R7Y")
-		(at 121.92 110.49 90)
+		(at 139.7 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6310,7 +6417,7 @@
 		(fields_autoplaced yes)
 		(uuid "296e0a36-fb9a-4f02-8305-0bdb933f627a")
 		(property "Reference" "L4"
-			(at 121.92 102.87 90)
+			(at 139.7 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6425,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 121.92 105.41 90)
+			(at 139.7 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6433,7 @@
 			)
 		)
 		(property "Footprint" "DC_load:L_Bourns_SRN6045TA"
-			(at 121.92 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6460,7 @@
 			)
 		)
 		(property "Partname" "SRN6045HA"
-			(at 121.92 107.95 90)
+			(at 139.7 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,6 +8073,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61bb8caf-1890-4d65-8150-d23c66d7c9e6")
+		(property "Reference" "TP5"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 187.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab56a3c9-09c1-47d7-80d8-232163328779")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/c995b483-e4b0-422e-944a-1e5735d2113f"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 118.11 72.39 0)
 		(unit 1)
@@ -8723,6 +8896,72 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/c995b483-e4b0-422e-944a-1e5735d2113f"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dbd2d99-4cd4-42ce-9c82-94090f0c87d8")
+		(property "Reference" "TP1"
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b1b1f5-c563-4a30-84fd-5331d787bd17")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/c995b483-e4b0-422e-944a-1e5735d2113f"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10548,6 +10787,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c632dfa0-d4a6-49ab-a6a9-5ca8182a65db")
+		(property "Reference" "TP6"
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 237.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5fa999-7bf4-4b1f-a9ea-eaf85151ef08")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/c995b483-e4b0-422e-944a-1e5735d2113f"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 262.89 113.03 0)
 		(unit 1)
@@ -11285,6 +11590,72 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/c995b483-e4b0-422e-944a-1e5735d2113f"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 171.45 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbc1b69c-83ce-4f44-9aad-f2cb8922142c")
+		(property "Reference" "TP4"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3ed097c-fc91-4944-9e9b-fdbcb19910e2")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/c995b483-e4b0-422e-944a-1e5735d2113f"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
