@@ -3023,7 +3023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -3156,7 +3156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -4297,7 +4297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 106.68 111.76 0)
 			(effects
 				(font
@@ -4661,7 +4661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 96.52 111.76 0)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -7089,7 +7089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 59.69 16.51 0)
 			(effects
 				(font
@@ -7222,7 +7222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -7677,7 +7677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 49.53 111.76 0)
 			(effects
 				(font

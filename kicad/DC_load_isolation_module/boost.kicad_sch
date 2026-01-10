@@ -5166,7 +5166,7 @@
 		)
 		(uuid "0c06dd59-35c1-41ba-87fd-f8443e5cc9fc")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "5V_PC"
 		(shape output)
 		(at 52.07 27.94 0)
 		(effects
@@ -5188,7 +5188,7 @@
 		)
 		(uuid "567bd09d-ed38-4bb9-9c6d-f4df1270fbe7")
 	)
-	(hierarchical_label "12V"
+	(hierarchical_label "12V_PC"
 		(shape output)
 		(at 246.38 110.49 0)
 		(effects
@@ -6852,7 +6852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 138.43 117.348 0)
 			(effects
 				(font
@@ -7303,7 +7303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 67.31 76.2 0)
 			(effects
 				(font
@@ -8434,7 +8434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 45.72 102.87 0)
 			(effects
 				(font
@@ -9435,7 +9435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 115.57 121.92 0)
 			(effects
 				(font
@@ -9635,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 182.88 38.1 0)
 			(effects
 				(font
@@ -10057,7 +10057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 49.53 20.32 0)
 			(effects
 				(font
@@ -10198,7 +10198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 25.4 74.93 0)
 			(effects
 				(font
@@ -10871,7 +10871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "12V_PC"
 			(at 262.89 107.95 0)
 			(effects
 				(font
@@ -10937,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_PC"
 			(at 121.92 31.75 0)
 			(effects
 				(font
@@ -11003,7 +11003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "12V_PC"
 			(at 231.14 102.87 0)
 			(effects
 				(font
