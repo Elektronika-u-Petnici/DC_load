@@ -2671,7 +2671,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eda877f3-b350-41fa-9289-679e5df5ce50")
 		(property "Reference" "#PWR0177"
 			(at 149.86 48.26 0)
@@ -2682,13 +2681,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V_PC_PC"
-			(at 142.24 48.2599 90)
+		(property "Value" "5V_PC"
+			(at 138.43 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
