@@ -92,16 +92,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "dodaj par LEDova\n"
-		(exclude_from_sim no)
-		(at 103.124 79.502 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-		)
-		(uuid "1a2c9bc5-428c-4a3e-a5b2-2c3c11ee9b61")
-	)
 	(wire
 		(pts
 			(xy 104.14 58.42) (xy 114.3 58.42)
