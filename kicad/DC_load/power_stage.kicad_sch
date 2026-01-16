@@ -4777,16 +4777,6 @@
 		)
 		(uuid "a4df0b2d-b2e7-401f-b894-3e47afd4aa07")
 	)
-	(polyline
-		(pts
-			(xy 85.09 85.09) (xy 95.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fb7280-d035-4c20-b8cc-d7c68fdf06cd")
-	)
 	(wire
 		(pts
 			(xy 332.74 30.48) (xy 332.74 38.1)

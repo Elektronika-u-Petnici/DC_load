@@ -7520,12 +7520,6 @@
 		(uuid "6f8fb2e8-48bf-4d86-b7c8-32b7e1f96878")
 	)
 	(junction
-		(at 77.47 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74725447-61f3-4b22-bb4e-55867914c7c3")
-	)
-	(junction
 		(at 172.72 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8379,7 +8373,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 52.07) (xy 77.47 59.69)
+			(xy 77.47 48.26) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8806,16 +8800,6 @@
 			(type default)
 		)
 		(uuid "53110782-faad-4139-940b-49d4ba81099b")
-	)
-	(wire
-		(pts
-			(xy 77.47 52.07) (xy 71.12 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53901c0c-e334-421f-a82a-89e5c0414b97")
 	)
 	(wire
 		(pts
@@ -9949,16 +9933,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 63.5 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e48f40-83b6-4ff6-8f88-a4f3671a7363")
-	)
-	(wire
-		(pts
 			(xy 73.66 264.16) (xy 77.47 264.16)
 		)
 		(stroke
@@ -10006,16 +9980,6 @@
 			(type default)
 		)
 		(uuid "ad298c4b-6a28-45e6-80cb-4d5982d85fd3")
-	)
-	(wire
-		(pts
-			(xy 77.47 48.26) (xy 77.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6a0d9b-394f-40ad-8194-d707412c646f")
 	)
 	(wire
 		(pts
@@ -13165,82 +13129,6 @@
 			(project "DC_load"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/57db3589-054f-4b81-a218-89ac743ece5d"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 67.31 52.07 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "122cf1a4-0322-4862-bcb1-60688bcc8de0")
-		(property "Reference" "R34"
-			(at 62.23 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 72.644 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 67.31 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f8953c3-70ae-401b-8daa-1ca6c351c13b")
-		)
-		(pin "2"
-			(uuid "79de9358-950a-4139-8065-6440c3edcf67")
-		)
-		(instances
-			(project "DC_load"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/57db3589-054f-4b81-a218-89ac743ece5d"
-					(reference "R34")
 					(unit 1)
 				)
 			)
