@@ -3412,7 +3412,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 140.97 180)
+		(at 95.25 140.97 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3420,7 +3421,7 @@
 		(dnp no)
 		(uuid "0521784b-ab37-4b7b-a3fe-8ef98a94bd5c")
 		(property "Reference" "R43"
-			(at 90.17 139.7 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3429,7 @@
 			)
 		)
 		(property "Value" "100m"
-			(at 90.17 142.24 0)
+			(at 100.33 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3437,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 97.028 140.97 90)
+			(at 93.472 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3572,7 @@
 		(dnp no)
 		(uuid "1ab3bcca-6ca7-429f-8ead-514b17bc2462")
 		(property "Reference" "R44"
-			(at 85.09 148.59 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,11 +3580,12 @@
 			)
 		)
 		(property "Value" "100m"
-			(at 85.09 151.13 0)
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
@@ -4164,7 +4166,7 @@
 		(dnp no)
 		(uuid "3ffd13b2-e01c-4ec3-8604-d67f1d2dca5a")
 		(property "Reference" "R45"
-			(at 80.01 156.21 0)
+			(at 82.55 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,11 +4174,12 @@
 			)
 		)
 		(property "Value" "100m"
-			(at 80.01 158.75 0)
+			(at 81.28 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"

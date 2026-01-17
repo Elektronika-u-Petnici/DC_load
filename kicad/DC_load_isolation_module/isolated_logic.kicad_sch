@@ -500,156 +500,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819WS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5819WS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5819WS_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5819WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:BAV99"
 			(pin_names
 				(hide yes)
@@ -1935,12 +1785,6 @@
 		)
 	)
 	(junction
-		(at 76.2 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18bc4acf-bad5-4a4a-8743-210b388fdc1f")
-	)
-	(junction
 		(at 76.2 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1981,12 +1825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f4a660e-318f-4b46-b9e8-20811114bfad")
-	)
-	(junction
-		(at 107.95 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fde1a94-4c21-47b2-b6e0-f38d08c8b820")
 	)
 	(junction
 		(at 107.95 39.37)
@@ -2161,6 +1999,16 @@
 			(type default)
 		)
 		(uuid "1cd9b9c6-8857-4610-a964-c843ad09e1b4")
+	)
+	(wire
+		(pts
+			(xy 113.03 49.53) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d42145f-1ee3-4a78-91eb-176878fcc4ed")
 	)
 	(wire
 		(pts
@@ -2574,16 +2422,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 49.53) (xy 124.46 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c862f3-10e8-4d01-9bc6-9405133094c5")
-	)
-	(wire
-		(pts
 			(xy 124.46 21.59) (xy 124.46 24.13)
 		)
 		(stroke
@@ -2794,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 144.78) (xy 76.2 144.78)
+			(xy 58.42 144.78) (xy 71.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3863,84 +3701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 107.95 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31d91177-db59-4699-8e01-6dd8b776e7f2")
-		(property "Reference" "D20"
-			(at 110.49 44.7674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 110.49 47.3074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 112.395 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 107.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 107.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 107.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26fb014a-3b7c-42cd-8c4a-2183164333a6")
-		)
-		(pin "1"
-			(uuid "34b20d3a-e83a-40c6-acb7-35e31c339c89")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 83.82 180)
 		(unit 1)
@@ -4359,6 +4119,87 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 107.95 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4904185c-d0ad-4d03-8340-21288ad1f54c")
+		(property "Reference" "D12"
+			(at 105.41 50.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 105.41 48.2601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9eab5fb-8843-45cf-943a-f4a7b73d267d")
+		)
+		(pin "1"
+			(uuid "7c9a5100-ae80-46e0-a624-d2c571a6d30e")
+		)
+		(pin "2"
+			(uuid "588831ed-f009-4c88-837c-b70c95f3dbd2")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5376,6 +5217,88 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV99")
+		(at 76.2 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8235d21a-c203-4e91-b8a3-40d34e7a6c8f")
+		(property "Reference" "D23"
+			(at 78.74 146.0501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 78.74 143.5101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0476579d-2aec-4684-82db-6b8c76c2758c")
+		)
+		(pin "1"
+			(uuid "9bfeafea-2b03-4b77-96b3-10246a0448c8")
+		)
+		(pin "2"
+			(uuid "b0c4a3c7-8a86-4409-9326-6a75ce6bcf38")
+		)
+		(instances
+			(project "DC_load_isolation_module"
+				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
 		(at 76.2 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5450,84 +5373,6 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 107.95 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8477a902-249d-48c3-9def-ba9d29cf82f6")
-		(property "Reference" "D21"
-			(at 110.49 52.3874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 110.49 54.9274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 112.395 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9726212-bceb-4e3b-a067-9d958a824545")
-		)
-		(pin "1"
-			(uuid "e184d886-bcd4-46db-94ba-f38a633b61c0")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
-					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -5824,85 +5669,6 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
 					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 76.2 140.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9830387a-c3f6-43fc-b06e-6cb50f6d303a")
-		(property "Reference" "D12"
-			(at 73.66 140.0174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 73.66 142.5574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 71.755 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 76.2 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 76.2 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 76.2 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8202d8b5-6983-40e1-bfd4-c6d49095afb1")
-		)
-		(pin "1"
-			(uuid "49f9f43e-86e2-407d-9783-67f6bd35a080")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -6706,85 +6472,6 @@
 			(project "DC_load_isolation_module"
 				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 76.2 148.59 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b922ffbf-77d2-4e7c-adae-7c99dcbf947e")
-		(property "Reference" "D14"
-			(at 73.66 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 73.66 150.1774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 71.755 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03f64fcf-a1de-46c5-bb62-1b290f5f7431")
-		)
-		(pin "1"
-			(uuid "92b0c446-ad1b-48d1-a821-ba15fc3d14cf")
-		)
-		(instances
-			(project "DC_load_isolation_module"
-				(path "/ce255642-b081-42cc-af02-07a78c62b42e/85274e98-f338-4a39-9e26-d9d8f651509e"
-					(reference "D14")
 					(unit 1)
 				)
 			)
